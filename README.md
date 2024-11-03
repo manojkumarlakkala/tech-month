@@ -33,12 +33,13 @@ The source code of the app is present in "**app**" folder. **Expo Router** uses 
 -**<View></View>** is a react native component for displaying UI elements(similar to a div in html).
 -**<Text></Text>** is a react native component for displaying text.
 
-`import { Text, View } from "react-native";
-
+```
+import { Text, View } from "react-native";
 export default function Index() {
   return (
     <View>
       <Text>Hello World</Text>
     </View>
   );
-}`
+}
+```
