@@ -32,8 +32,8 @@ The source code of the app is present in "**app**" folder. **Expo Router** uses 
 
 >*The code in the "**index.tsx**" file is for the respective screen(route).*
 
-- **<View></View>** is a react native component for displaying UI elements(similar to a div in html).
-- **<Text></Text>** is a react native component for displaying text.
+- **`<View></View>`** is a react native component for displaying UI elements(similar to a div in html).
+- **`<Text></Text>`** is a react native component for displaying text.
 
 ```javascript
 import { Text, View } from "react-native";
