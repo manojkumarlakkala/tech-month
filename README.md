@@ -14,7 +14,7 @@ It is an cross platform environment that enables developers to build apps for IO
 - Enter `npx expo start` to run the app.
 - To remove the existing boilerplate code use `npm run reset-project`.
 
-*Open the .jsx or .tsx files in code editor.*
+>*Open the .jsx or .tsx files in code editor.*
 
 ## Fundamentals
 
@@ -30,7 +30,7 @@ The source code of the app is present in "**app**" folder. **Expo Router** uses 
 
 ### Hello World
 
-*The code in the "**index.tsx**" file is for the respective screen(route).*
+>*The code in the "**index.tsx**" file is for the respective screen(route).*
 
 - **<View></View>** is a react native component for displaying UI elements(similar to a div in html).
 - **<Text></Text>** is a react native component for displaying text.
