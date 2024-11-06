@@ -28,10 +28,11 @@ const styles = StyleSheet.create({
 ## File-based Routing
 - Each folder in the app folder corresponds to a route if it contains "**index.tsx**" and "**_layout.tsx**" files.
 - The app folder corresponds to "**/**".
+
 ![Screenshot 2024-11-06 191937](https://github.com/user-attachments/assets/390d406b-f8bf-43e8-8471-6fe78be9f3b7)
 
 - For example, a folder named "settings" with "**index.tsx**" and "**_layout.tsx**" files corresponds to the route "/settings".
-![Screenshot 2024-11-06 191853](https://github.com/user-attachments/assets/63dd7bd4-a4af-454a-a44a-6fd9ed08f133)
+![Screenshot 2024-11-06 192034](https://github.com/user-attachments/assets/66a0a01e-414d-4993-bdd7-945e1c421031)
 
 - A folder named "sub" inside "settings" folder with "**index.tsx**" and "**_layout.tsx**" files corresponds to the route "/settings/sub".
 - We can use files directly instead of folders. The name of the file with **.jsx** or **.tsx** files will correspond to new route.
