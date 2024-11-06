@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
 ## Connecting Routes
 - Using **Stack** of **expo-router** we can inter-link the screens of the application.
 In the file **app/__layout.tsx**:
-```typescript
+```javascript
 import {Stack} from 'expo-router';
 export default function Layout(){
   return (
@@ -58,7 +58,7 @@ export default function Layout(){
 }
 ```
 We can create a link element in **app/index.tsx** to link "/details" with root screen.
-```typescript
+```javascript
 <Link href={{ pathname: 'details'}}>Go to Details</Link>
 ```
 > This creates stack for "/" and "/details".
