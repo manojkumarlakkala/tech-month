@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
 >*The above code goes into the index file of whichever screen required.*
 
 ## Connecting Routes
--Using **Stack** of **expo-router** we can inter-link the screens of the application.
+- Using **Stack** of **expo-router** we can inter-link the screens of the application.
 In the file **app/__layout.tsx**:
 ```typescript
 import {Stack} from 'expo-router';
