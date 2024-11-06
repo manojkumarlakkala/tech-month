@@ -40,3 +40,25 @@ const styles = StyleSheet.create({
 ![Screenshot 2024-11-06 192954](https://github.com/user-attachments/assets/27193272-9be9-42d5-8409-f810273e3e70)
 
 - **_layout.tsx** is used to define shared UI elements such as headers, tab bars so that they persist between different routes.
+
+>*The above code goes into the index file of whichever screen required.*
+
+## Connecting Routes
+-Using **Stack** of **expo-router** we can inter-link the screens of the application.
+In the file **app/__layout.tsx**:
+```typescript
+import {Stack} from 'expo-router';
+export default function Layout(){
+  return (
+    <Stack>
+      <Stack.Screen name="index"/>
+      <Stack.Screen name="details"/>
+    </Stack>
+  );
+}
+```
+We can create a link element in **app/index.tsx** to link "/details" with root screen.
+```typescript
+<Link href={{ pathname: 'details'}}>Go to Details</Link>
+```
+> This creates stack for "/" and "/details".
