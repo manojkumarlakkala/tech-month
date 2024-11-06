@@ -28,9 +28,10 @@ Before you begin with React Native, make sure you have the following prerequisit
 ### Step 1:
 Open your Terminal navigate to the place where you want to create the Project Set Up and run the following Command
 ```bash
-npx create-expo-app
+npx create-expo-app --template blank
 ```
 It will ask for the App Name, Give your desired App Name
+![image](https://github.com/user-attachments/assets/e4f506fd-21a6-488c-9de8-78d6b0b9da90)
 
 Now your Project is ready and You can get deep Dive:
 ![image](https://github.com/user-attachments/assets/97e399cb-c156-4df0-8623-fbe7a71ddee0)
@@ -105,7 +106,3 @@ Expo Go is a sandbox environment that allows you to experiment with building nat
     (Ensure that your PC and Mobile are Connected to the same Network, the build might fail sometimes due to different networks)
     
      Congratulations! You've just built your very first Mobile App!
-
-    Output Looks Similar to this:
-    
-    ![image](https://github.com/user-attachments/assets/a2fdfc9b-0b24-4ca6-b36f-ef1e5a888326)
