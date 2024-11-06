@@ -2,7 +2,7 @@
 
 App.js is the main Entry Point(if you've used "--template blank" while creating the app) Replace the existing Code in App.js with the following Code:
 
-```bash
+```javascript
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
