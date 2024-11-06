@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
   },
 });
 ```
-## ***Instead of using `npx create-expo-app --template blank` we can use `npx create-expo-app` and clear unwanted code using `npm run reset-project` which leaves us with app folder structure which is used for routing different screens.***
+> ### ***Instead of using `npx create-expo-app --template blank` we can use `npx create-expo-app` and clear unwanted code using `npm run reset-project` which leaves us with app folder structure which is used for routing different screens.***
 
 ## File-based Routing
 - Each folder in the app folder corresponds to a route if it contains "**index.tsx**" and "**_layout.tsx**" files.
