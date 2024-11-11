@@ -1,3 +1,23 @@
+# Common React Native Components
+## <View>
+- It is a container that holds together all other components inside it.
+- `<View><SomeComponent/></View>`
+
+## <Text>
+- It is used to display text with specified properties.
+- `<Text>Hello World!</Text>`
+
+## <TextInput>
+- It is used to take input from the user.
+- `<TextInput defaultValue="Enter what you want to display before the user enters any data"></TextInput>`
+
+## <Image>
+- It is used to display images.
+- `<Image source={{uri:'enter your image uri here'}}/>`
+
+## <ScrollView>
+- It is a container of components but scrollable.
+- `<ScrollView><SomeComponent/></ScrollView>`
 
 # Hooks
 
@@ -44,5 +64,3 @@ useEffect(() => { //setup function
 - [useReducer](https://react.dev/reference/react/useReducer)
 - [useRef](https://react.dev/reference/react/useRef)
 - [more](https://react.dev/reference/react/hooks)
-
-
