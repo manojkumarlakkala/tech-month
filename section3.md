@@ -1,21 +1,21 @@
 # Common React Native Components
-## <View>
+## `<View>`
 - It is a container that holds together all other components inside it.
 - `<View><SomeComponent/></View>`
 
-## <Text>
+## `<Text>`
 - It is used to display text with specified properties.
 - `<Text>Hello World!</Text>`
 
-## <TextInput>
+## `<TextInput>`
 - It is used to take input from the user.
 - `<TextInput defaultValue="Enter what you want to display before the user enters any data"></TextInput>`
 
-## <Image>
+## `<Image>`
 - It is used to display images.
 - `<Image source={{uri:'enter your image uri here'}}/>`
 
-## <ScrollView>
+## `<ScrollView>`
 - It is a container of components but scrollable.
 - `<ScrollView><SomeComponent/></ScrollView>`
 
