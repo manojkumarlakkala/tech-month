@@ -100,7 +100,7 @@ Expo Go is a sandbox environment that allows you to experiment with building nat
        ```
        or use the below command to run in browser:
        ```bash
-       npm run start
+       npm run web
        ```
    - You will get  a QR like this
    
