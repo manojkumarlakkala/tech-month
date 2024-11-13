@@ -43,7 +43,7 @@ export default function Counter() {
 - The **useEffect** is used to control non-react components based on react states.
 - `useEffect(setup,dependencies);`
 - The *setup* parameter is a function which contains the Effect's logic and *dependencies* parameter is an array of variables referenced in *setup* function.
-- The **useEffect** runs the useEffect every time the component is rendered to the webpage and every time the page re-renders with changed *dependencies*, *cleanup* function which is returned in setup is executed with old values and then runs the *setup* function with new values.
+- The **useEffect** runs the setup every time the component is rendered to the webpage and every time the page re-renders with changed *dependencies*, *cleanup* function which is returned in setup is executed with old values and then runs the *setup* function with new values.
 - This is used at the top level of the component and can't be used inside loops and conditions.
 - For example, the below function shows the connections and disconnections to a chat room.
 ```javascript
