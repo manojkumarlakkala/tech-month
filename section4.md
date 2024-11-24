@@ -63,9 +63,12 @@ export default function app(){
 	return(
 		<View>
 			<TextInput 
-				onChangeText={setText}//sets the text state to the changed value in the input
-				placeholder="Enter to show in input box"//shows up in the input box before entering anything
-				value={text}//the value entered in the input
+				onChangeText={setText//sets the text state to the changed value in the input
+}
+				placeholder="Enter to show in input box"{//shows up in the input box before entering anything
+}
+				value={text//the value entered in the input
+}
 			/>
 			<Text>{text}</Text>
 		</View>
