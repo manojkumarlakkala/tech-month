@@ -29,7 +29,8 @@ export default app(){
 	);
 }
 ```
-![[Pasted image 20241124181726.png]]
+![Pasted image 20241124181726](https://github.com/user-attachments/assets/9685ead9-f4da-4975-b6db-ce3760e38d48)
+
 
 ## Dark Theme to Light Theme
 ```jsx
@@ -71,12 +72,12 @@ export default function app(){
 	);
 }
 ```
-![[Pasted image 20241124180406.png]]
-![[Pasted image 20241124180441.png]]
+
 ## ScrollView
 ```jsx
 import React from 'react';
 import {useState,View,Text,ScrollView} from 'react-native';
+
 
 export default function app(){
 	return(
