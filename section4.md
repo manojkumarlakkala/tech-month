@@ -72,10 +72,14 @@ export default function app(){
 	);
 }
 ```
+![Pasted image 20241124180406](https://github.com/user-attachments/assets/8d18a267-9c79-4c2c-8e6a-e58bb43fe5a1)
+![Pasted image 20241124180441](https://github.com/user-attachments/assets/79eba863-fd43-4fe4-9a13-9ad7101f13b2)
+
 
 ## ScrollView
 ```jsx
 import React from 'react';
+
 import {useState,View,Text,ScrollView} from 'react-native';
 
 
@@ -90,3 +94,4 @@ export default function app(){
 }
 ```
 ![image](https://miro.medium.com/v2/resize:fit:700/1*PyHpvhb9EPWGcSVLp1VzRQ.gif)
+
