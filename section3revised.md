@@ -60,7 +60,7 @@ Then, run the setup function again with the new data.
 
 ### Important rules:
 
-> You can only use useEffect at the top level > of your component, not inside loops or if > > statements.
+> You can only use useEffect at the top level  of your component, not inside loops or if statements.
 
 - For example, the below function shows the connections and disconnections to a chat room.
 ```javascript
